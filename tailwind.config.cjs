@@ -5,7 +5,13 @@ module.exports = {
     './index.html'
     ],
     theme: {
-      extend: {},
+      extend: {
+        colors: {
+          'background': '#121212',
+          'navBar': 'rgba(40, 40, 40, 0.8)',
+          'teste': '#212020'
+        }
+      },
     },
     plugins: [],
   }
