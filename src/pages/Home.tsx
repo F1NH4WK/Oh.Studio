@@ -3,7 +3,7 @@ import Images from "../components/Images"
 export default function Home(){
 
     return(
-        <div className = 'flex justify-center flex-col items-center text-white pt-40 scroll-smooth'>
+        <div className = 'flex justify-center flex-col items-center text-white pt-40 scroll-smooth animate-load'>
             
             <div className = 'w-[60%] min-w-[60%] h-64 flex items-center justify-center'>
                 <h1 className = 'text-7xl text-center leading-tight font-semibold'>
