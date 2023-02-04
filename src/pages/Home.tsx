@@ -39,7 +39,7 @@ export default function Home(){
 
                 <div className = 'flex items-center text-4xl sm:text-4xl justify-center h-[65vh] sm:h-60 sm:mb-20 flex-col'>
                 <h1 className = 'text-center leading-tight font-semibold tracking-tighter'>
-                    Let's work together.
+                    Let's work together...
                 </h1> 
                  <a href = 'mailto:oli@oh.studio'>
                     <p className = 'text-zinc-400 hover:text-zinc-600 text-center tracking-tighter font-semibold cursor-pointer'>Get in touch.</p>
