@@ -15,10 +15,16 @@ module.exports = {
           load: {
             '0%': { opacity: 0, transform: 'translateY(2%)' },
             '100%': { opacity: 1, transform: 'translateY(0)'}
+          },
+          imageCaption: {
+            '0%': {opacity: 0, transform: 'translateY(-50%)'},
+            '100%': {opacity: 1, transform: 'translateY(0)'}
           }
         },
         animation: {
-          load: 'load 1s ease-out'
+          load: 'load 1s ease-out',
+          imageCaption: 'imageCaption .5s ease-out forwards',
+          imageReverse: 'imageCaption .5s ease-out reverse'
         }
       },
     },
