@@ -5,8 +5,8 @@ export default function Home(){
     return(
         <div className = 'flex justify-center flex-col items-center text-white pt-40 scroll-smooth animate-load'>
             
-            <div className = 'w-[60%] min-w-[60%] h-64 flex items-center justify-center'>
-                <h1 className = 'text-7xl text-center leading-tight font-semibold tracking-tighter'>
+            <div className = 'w-[70%] h-64 flex items-center border justify-center text-7xl max-cellphone:text-2xl'>
+                <h1 className = 'text-center leading-tight font-semibold tracking-tighter'>
                     A brand and product designer working with clients globally    
                 </h1> 
             </div>   
@@ -39,7 +39,7 @@ export default function Home(){
 
                 <div 
                 
-                className = "flex w-full h-64 gap-4 flex-col items-center text-5xl font-medium">
+                className = "flex w-full h-64 gap-4 flex-col items-center text-5xl font-medium text-center">
                     <p>Let's work together.</p>
                     <a href = 'mailto:oli@oh.studio'>
                         <p className = 'text-zinc-400 hover:text-zinc-600 cursor-pointer'>Get in touch.</p>
