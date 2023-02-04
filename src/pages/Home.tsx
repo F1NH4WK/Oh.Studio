@@ -5,13 +5,13 @@ export default function Home(){
     return(
         <div className = 'flex justify-center flex-col items-center text-white pt-40 scroll-smooth animate-load'>
             
-            <div className = 'w-[70%] h-64 flex items-center border justify-center text-7xl max-cellphone:text-2xl'>
+            <div className = 'sm:w-[60%] h-64 flex items-center justify-center text-4xl sm:text-7xl'>
                 <h1 className = 'text-center leading-tight font-semibold tracking-tighter'>
                     A brand and product designer working with clients globally    
                 </h1> 
             </div>   
 
-            <div className = 'flex flex-row w-96 h-10 items-center justify-between px-1 rounded-full mt-10 mb-28 text-sm min-w-fit min-h-fit animate-load'>
+            <div className = 'flex flex-row sm:w-96 sm:h-10 w-5/6 items-center justify-center sm:justify-between gap-3 sm:gap-0 px-1 sm:mt-10 mb-28 text-sm animate-load flex-wrap'>
                 <div className = ' flex p-[0.25rem] rounded-full px-3'>
                     <p>Expertise</p>
                 </div>
@@ -29,7 +29,7 @@ export default function Home(){
                 </div>
             </div>
 
-                <div className = 'grid grid-rows-4 grid-flow-row grid-cols-2 gap-8 w-full px-14 mb-28 flex-shrink'>
+                <div className = 'grid grid-rows-4 grid-flow-row grid-cols-2 gap-8 w-full sm:px-14  sm:mb-28 mb-2 px-5'>
                     { Array.from({length: 12}).map((_, index) => {
                         return(
                          <Images key={index} random = {Math.round(Math.random()*50)} />
@@ -37,14 +37,14 @@ export default function Home(){
                     })}                    
                 </div>
 
-                <div 
-                
-                className = "flex w-full h-64 gap-4 flex-col items-center text-5xl font-medium text-center">
-                    <p>Let's work together.</p>
-                    <a href = 'mailto:oli@oh.studio'>
-                        <p className = 'text-zinc-400 hover:text-zinc-600 cursor-pointer'>Get in touch.</p>
-                    </a>
-                </div>
+                <div className = 'flex items-center text-4xl sm:text-4xl justify-center h-[65vh] sm:h-60 sm:mb-20 flex-col'>
+                <h1 className = 'text-center leading-tight font-semibold tracking-tighter'>
+                    Let's work together.
+                </h1> 
+                 <a href = 'mailto:oli@oh.studio'>
+                    <p className = 'text-zinc-400 hover:text-zinc-600 text-center tracking-tighter font-semibold cursor-pointer'>Get in touch.</p>
+                </a>
+            </div>  
         </div>
     )
 }

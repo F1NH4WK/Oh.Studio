@@ -1,11 +1,11 @@
-import Footer from "../components/Footer"
+import { useLocation } from "react-router-dom"
 
 export default function Profile(){
 
-    return(
-        <div className="w-screen h-screen bg-background">
 
-            <Footer />
+    return(
+        <div className="">
+
         </div>
     )
 }

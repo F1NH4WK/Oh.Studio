@@ -21,7 +21,7 @@ export default function Images({ random }: ImagesProps){
     // AXIOS WAS A POSSIBLE SOLUTION, BUT MY PROBLEM WAS A SIMPLE THING, SO FETCH'D BE EASIER.
 
     return(
-        <figure className=" group h-96 rounded-3xl w-full overflow-hidden mb-3 cursor-pointer">
+        <figure className=" group  h-96 rounded-3xl w-full overflow-hidden mb-3 cursor-pointer col-span-2 sm:col-span-1">
             <figcaption
             className="absolute z-10 m-5 group-hover:animate-imageCaption opacity-0 text-xl tracking-tighter drop-shadow-xl">
                 {name}    

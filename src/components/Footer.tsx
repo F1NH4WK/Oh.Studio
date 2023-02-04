@@ -4,7 +4,7 @@ import { LinkedinLogo, TwitterLogo, PaperPlaneTilt } from 'phosphor-react'
 export default function Footer(){
 
     return(
-        <footer className = "w-full h-20 justify-between items-center flex px-10 text-white flex-col sm:flex-row">
+        <footer className = "w-full h-20 justify-between items-center flex px-10 text-white flex-col sm:flex-row pb-5">
             <div className = 'h-full flex flex-row items-center justify-start'>
                 <h3 className = 'font-medium text-base font-sans'>© Oli Harris 2023</h3>
             </div>
